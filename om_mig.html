@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Om mig</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <!-- Close Knappen i menyn -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- Om mig Knappen i menyn -->
+    <a href="index.html">Hem</a>
+    
+    <!-- Om mig Knappen i menyn -->
+    <a href="om_mig.html">Om mig</a>
+
+    <!-- Historia Knappen i menyn -->
+    <a href="history.html">Historia</a>
+</div>
+
+  <!-- Kallar på funktionen openNav -->
+  <button class = "alternative" onclick="openNav()"> Kategorier</button>
+
+
+
+
+
+  
+  <header>
+
+    <h1>Alexander Johansson</h1>
+
+  </header>
+
+  <nav>
+    <hr>
+    
+    <h2>Bakgrund</h2>
+    <p>Tjena, jag heter Alexander och kommer jag kommer från Sverige. Mitt favorit ämne i skolan är programering och
+      webbutveckling. På fritiden så gillar jag att programera spel, spela och vara med vänner</p>
+    <hr>
+
+    <h2>Framtid</h2>
+    <p>I framtiden vill jag plugga vidare på högskola, efter högskolan vill jag jobba inom något roligt och välbetalt
+      som till exemple programerare</p>
+  </nav>
+
+
+</body>
+
+
+
+  <script>
+  //Öppnar Sido menyn
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "200px";
+  }
+  //Stänger Sido menyn
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+</html>

@@ -1,0 +1,67 @@
+body{
+  background-image: url("ezgif.com-gif-maker.png");
+}
+
+
+header, nav{
+    text-align: left;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+}
+
+h2{
+  color: white;
+    text-shadow: 1px 1px #aba1ce;
+}
+
+p{
+  color: white;
+    border: 1px solid #dccdfe;
+
+    width: 50%;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: -5px;
+  background-color: #000000; /* Black*/
+  overflow-x: hidden; /* Tar bort x scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  border: 2px solid red;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
